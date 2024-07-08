@@ -1,6 +1,5 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {StarWarsCharacterInterface} from "./star-wars-character.interface";
 import {map, shareReplay, switchMap} from "rxjs";
 
 @Injectable({
